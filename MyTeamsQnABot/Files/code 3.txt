@@ -1,0 +1,15 @@
+protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
+{
+    if (turnContext.Activity.Attachments?[0].ContentType.Contains("image/*") == true)
+    {
+        // Inline image.
+        await ProcessInlineImage(turnContext, cancellationToken);
+    }
+    else
+    {
+        string filename = "teams-logo.png";
+        string filePath = Path.Combine("Files", filename);
+        long fileSize = new FileInfo(filePath).Length;
+        await SendFileCardAsync(turnContext, filename, fileSize, cancellationToken);
+    }
+}

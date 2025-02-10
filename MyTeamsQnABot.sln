@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTeamsQnABot", "MyTeamsQnABot\MyTeamsQnABot.csproj", "{9D3A8795-E180-4FE9-885A-92D85354DB49}"
+EndProject
+Project("{A9E3F50B-275E-4AF7-ADCE-8BE12D41E305}") = "TeamsApp", "TeamsApp\TeamsApp.ttkproj", "{5D3008DF-8D5A-4516-B3B4-0ED21705B696}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D3A8795-E180-4FE9-885A-92D85354DB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3A8795-E180-4FE9-885A-92D85354DB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3A8795-E180-4FE9-885A-92D85354DB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3A8795-E180-4FE9-885A-92D85354DB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3008DF-8D5A-4516-B3B4-0ED21705B696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3008DF-8D5A-4516-B3B4-0ED21705B696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3008DF-8D5A-4516-B3B4-0ED21705B696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3008DF-8D5A-4516-B3B4-0ED21705B696}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
